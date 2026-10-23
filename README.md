@@ -93,14 +93,14 @@ vi.Scatterplots to visualize relationships between temperature, humidity, soil p
 
 vii.These visualizations help explore the characteristics of the dataset before training the models.
 
-3.** Data Splitting:**
+3. **Data Splitting:**
 
 The dataset is divided into training and testing sets using an 80:20 split. The training data is used to fit the machine learning models, while the testing data is used to evaluate their predictive performance on held-out records.
 
 Stratified splitting is applied to preserve the relative distribution of crop categories across the two sets.
 
-4. **Machine Learning Model Development:
-**
+4. **Machine Learning Model Development:**
+
 The project evaluates multiple classification approaches to identify a suitable crop prediction model.
 
 **Random Forest Classifier**: The baseline model uses an ensemble of decision trees to predict crop categories from the seven input features.
